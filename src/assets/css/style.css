@@ -184,7 +184,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #ad0000;
+  color: #b0abb3;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -199,13 +199,13 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #ad0000;
+  color: #b0abb3;
 }
 
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #ad0000;
+  background-color: #b0abb3;
 }
 
 .border-first-button a {
@@ -1135,7 +1135,7 @@ About Style
 }
 
 .second-skill-item .progress .progress-bar {
-  border-color: #ad0000;
+  border-color: #b0abb3;
 }
 
 .third-skill-item .progress .progress-bar {
@@ -1561,7 +1561,7 @@ Free Quote
   outline: none;
   border: none;
   margin-left: 30px;
-  background-color: #ad0000;
+  background-color: #b0abb3;
   font-size: 15px;
   color: #fff;
 }
@@ -1752,7 +1752,7 @@ Blog
   font-size: 15px;
   color: #fff;
   padding: 8px 12px;
-  background-color: #ad0000;
+  background-color: #b0abb3;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1825,7 +1825,7 @@ Blog
   font-size: 15px;
   color: #fff;
   padding: 8px 12px;
-  background-color: #ad0000;
+  background-color: #b0abb3;
   border-radius: 18px;
   display: inline-block;
 }

@@ -18,6 +18,25 @@
     },
     setup(){
         return{}
+    },
+    methods:{
+      externalScripts(url: string){
+        const node = document.createElement('script');
+        node.src = url;
+        node.type = 'text/javascript';
+        document.getElementsByTagName('head')[0].appendChild(node);
+        console.log('Script loaded.');
+      }
+    },
+    mounted(){
+      this.externalScripts('/src/assets/js/jquery.min.js');
+      this.externalScripts('/src/assets/js/bootstrap.bundle.min.js');
+      this.externalScripts('/src/assets/js/owl-carousel.js');
+      this.externalScripts('/src/assets/js/custom.js');
+      this.externalScripts('/src/assets/js/animation.js');  
+      this.externalScripts('/src/assets/js/imagesloaded.js');
+      this.externalScripts('/src/assets/js/isotope.js');
+      this.externalScripts('/src/assets/js/tabs.js');
     }
   });
 </script>

@@ -35,10 +35,10 @@
                 <!-- ***** Logo End ***** -->
                 <!-- ***** Menu Start ***** -->
                 <ul class="nav">
-                <li ><router-link :to="{name: 'home', hash: '#top' }">Home</router-link></li>
-                <li ><router-link :to="{name: 'home', hash: '#about' }">About</router-link></li>
-                <li ><router-link :to="{name: 'home', hash: '#services' }">Services</router-link></li>
-                <li ><router-link :to="{name: 'home', hash: '#contact' }">Contact</router-link></li>
+                <li ><router-link :to="{name: 'home', hash: '#top' }" exact>HOME</router-link></li>
+                <li ><router-link :to="{name: 'home', hash: '#about' }" exact>ABOUT</router-link></li>
+                <li ><router-link :to="{name: 'home', hash: '#services' }" exact>SERVICES</router-link></li>
+                <li ><router-link :to="{name: 'home', hash: '#contact' }" exact>CONTACT</router-link></li>
                 </ul>        
                 <a class='menu-trigger'>
                     <span>Menu</span>

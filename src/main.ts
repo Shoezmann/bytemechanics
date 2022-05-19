@@ -14,12 +14,14 @@ import './assets/css/style.css';
 import './assets/css/animated.css';
 import './assets/css/owl.css';
 
-
 const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
             path: '/home', name: 'home', component: Home
+        },
+        {
+            path: '/:catchAll(.*)', redirect: '/home'
         }
     ],
     linkExactActiveClass: 'active',
